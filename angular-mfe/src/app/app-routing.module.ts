@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { APP_BASE_HREF } from '@angular/common';
 import { EmptyRouteComponent } from './empty-route/empty-route.component';
-import { ShareComponent } from '../components/share/share.component';
+import { LogoutComponent } from '../components/logout/logout.component';
 
 const routes: Routes = [
-  { path: 'angular/share', component: ShareComponent },
+  { path: 'angular/logout', component: LogoutComponent },
   { path: '**', component: EmptyRouteComponent },
 ];
 

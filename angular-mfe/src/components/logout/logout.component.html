@@ -1,0 +1,14 @@
+<style>
+  button{
+    padding: 2px 15px;
+    border-radius: 20px;
+    border: 1px solid black}
+</style>
+
+<h2>Disconnect {{userLogged}} Page</h2>
+
+<button (click)="(onClickCallReact())">Call Function from react</button>
+<br/>
+<button (click)="(onLogOut())">Log Out</button>
+<br/>
+<a routerLink="/angular/home" routerLinkActive="active" ariaCurrentWhenActive="page">Go back Home</a>

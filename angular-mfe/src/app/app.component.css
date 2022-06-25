@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  background: coral;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0 10px 0;
+}
+section {
+  margin: 30px 50px;
+}
